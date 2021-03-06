@@ -65,31 +65,31 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+Hello there, I'm [亗『ᏞᎬᎶᎬᑎᎠ』亗](https://telegra.ph/file/9204b7bb42d206556bac4.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+I am an 亗『ᏞᎬᎶᎬᑎᎠ』亗 I MANEGE UR GROUP😈
 
-✪ Make sure you read *INFO* Section Below ✪ 
+😈 Make sure you read *INFO* Section Below 😈
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="😈 INFO 😈", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND BOT to your group 💫",
-            url="t.me/grand50_bot?startgroup=true",
+            text="😈 Add LEGEND BOT to your group 😈",
+            url="t.me/LEGEND_PROBOT?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [亗『ᏞᎬᎶᎬᑎᎠ』亗](https://telegra.ph/file/9204b7bb42d206556bac4.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/teamishere,[LEGEND BOT](t.me/teamishere),"""
+Support them  [N](t.me/TERA_BAAP_LUCIFER,[LEGEND BOT](t.me/ROCKY_8218),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -360,8 +360,9 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😈 Hi again!  The name's {dispatcher.bot.first_name} 😈 \n\nAs  You I'm a next generational group management bot developed by @ROCKY_8218
+.* "
+            f"\n\n 🔥 Join [亗『ᏞᎬᎶᎬᑎᎠ』亗](https://t.me/ROCKY_8218) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
