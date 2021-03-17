@@ -65,9 +65,9 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [亗『ᏞᎬᎶᎬᑎᎠ』亗](https://telegra.ph/file/9204b7bb42d206556bac4.jpg)
+Hello there, I'm [𝗗𝗘𝗩𝗜𝗟](https://telegra.ph/file/ba37d0df9b9f0fb505e76.jpg)
 
-I am an 亗『ᏞᎬᎶᎬᑎᎠ』亗 I MANEGE UR GROUP😈
+I am an 𝗗𝗘𝗩𝗜𝗟 I MANEGE UR GROUP😈
 
 😈 Make sure you read *INFO* Section Below 😈
 """
@@ -81,15 +81,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="😈 Add LEGEND BOT to your group 😈",
-            url="t.me/LEGEND_PROBOT?startgroup=true",
+            text="😈 Add 𝗗𝗘𝗩𝗜𝗟 𝗕𝗢𝗧 to your group 😈",
+            url="t.meDEVIL_PROBOT?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [亗『ᏞᎬᎶᎬᑎᎠ』亗](https://telegra.ph/file/9204b7bb42d206556bac4.jpg)
+*Main Commands :* [𝗗𝗘𝗩𝗜𝗟](https://telegra.ph/file/ba37d0df9b9f0fb505e76.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/TERA_BAAP_LUCIFER,[LEGEND BOT](t.me/ROCKY_8218),"""
+Support them  [N](t.me/X_OP_ROHAN_X,[DEVIL](t.me/ROCKY_8218),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -362,7 +362,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"*😈 Hi again!  The name's {dispatcher.bot.first_name} 😈 \n\nAs  You I'm a next generational group management bot developed by @ROCKY_8218
 .* "
-            f"\n\n 🔥 Join [亗『ᏞᎬᎶᎬᑎᎠ』亗](https://t.me/ROCKY_8218) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [𝗗𝗘𝗩𝗜𝗟](https://t.me/X_OP_ROHAN_X) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -860,7 +860,7 @@ def main():
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if LEGENDX == 1100231654:
-         print ("LEGENDX ADDED SIR ")
+         print ("ROHAN ADDED SIR ")
     else:
          os.execl(sys.executable, sys.executable, *sys.argv)
          telethn.disconnect()
