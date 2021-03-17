@@ -360,8 +360,7 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @X_OP_ROHAN_X"
-.* "
+            text=f"*😍 Hi again!  The name's {} 😍 \n\nAs  I Manage ur group 😁"
             f"\n\n 🔥 Join [𝗗𝗘𝗩𝗜𝗟](https://t.me/X_OP_ROHAN_X) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
